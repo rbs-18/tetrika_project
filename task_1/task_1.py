@@ -1,6 +1,3 @@
-from unicodedata import digit
-
-
 def task(array: str) -> int:
     return len(array.split('0')[0])
 
